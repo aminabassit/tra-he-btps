@@ -4,10 +4,10 @@
 
 This repository contains the implementation of a non-adaptive biometric template recovery attack that exploits the cleartext score disclosure vulnerability of HE-based BTPs that compute an inner product-based similarity measure under encryption to compare their encrypted templates.
 This attack requires no training and a few random fake templates with their corresponding scores, from which the unprotected target template is recovered using the Lagrange multiplier optimization method.
-The evaluation of this attack is two fold:
+The evaluation of this attack is twofold:
 
-- Verification of whether the recovered template is deemed similar to the target template held by recognition systems set to accept $0.1\%$, $0.01\%$, and $0.001\%$ FMR.
-- Estimation of the number of fake templates and their corresponding scores leading to a template recovery with a $100\%$ success rate.
+- Verification of whether the recovered template is deemed similar to the target template held by recognition systems set to accept 0.1%, 0.01%, and 0.001% FMR.
+- Estimation of the number of fake templates and their corresponding scores leading to a template recovery with a 100% success rate.
 
 ### What is the risk of revealing cleartext scores?
 
